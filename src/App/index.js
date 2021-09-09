@@ -1,3 +1,13 @@
-const App = () =>(<h1>Hello</h1>)
+import { TravelProvider } from "../Context";
+import { AppUi } from "./AppUi";
 
-export default App
+// Root styles
+import './Index.css'
+
+const App = () => (
+  <TravelProvider>
+    <AppUi></AppUi>
+  </TravelProvider>
+);
+
+export default App;

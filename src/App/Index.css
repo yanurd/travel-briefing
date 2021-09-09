@@ -1,0 +1,15 @@
+:root {
+  --primary: #fbb667;
+  --secondary: #0f214f;
+  --white: #fff;
+  --header: "Nunito", sans-serif;
+  --title: "Crimson Text", serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
