@@ -1,3 +1,3 @@
-const BriefCard = (props) => props.children;
+const BriefCard = (props) => props.children
 
-export { BriefCard };
+export {BriefCard}

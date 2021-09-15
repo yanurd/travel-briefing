@@ -9,7 +9,6 @@ const InfoTitle = (props) => {
           Type in your next country to brief relevant data such as water safety,
           power plugs, emergency numbers and vaccinations
         </h3>
-        {props.children}
       </div>
     </>
   );

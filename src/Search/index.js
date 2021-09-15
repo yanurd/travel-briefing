@@ -1,6 +1,7 @@
 import { useContext, useState } from "react";
 import { TravelContext } from "../Context";
 
+import './form.css'
 const Search = () => {
   const { setSearch } = useContext(TravelContext);
   const [value, setValue] = useState("");
